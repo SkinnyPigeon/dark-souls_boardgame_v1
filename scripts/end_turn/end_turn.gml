@@ -6,3 +6,7 @@ if(obj_logic.i + 1 == character_length) {
 } else {
 	obj_logic.i += 1;
 }
+
+var character = obj_logic.room_character_order[obj_logic.i];
+obj_node.sprite_index = spr_node;
+start_turn(character)
