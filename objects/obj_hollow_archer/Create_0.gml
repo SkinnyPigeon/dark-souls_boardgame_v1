@@ -2,7 +2,7 @@
 is_turn = 0;
 steps = 1;
 
-enemy = 1;
+enemy = true;
 name = "Hollow Archer";
 
 target = "closest";
