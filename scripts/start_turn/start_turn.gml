@@ -28,6 +28,6 @@ for(var i = 0; i < array_length_1d(one_space_array); i++) {
 	}
 }
 
-if(character.enemy == 1) {
-
-}
+//if(character.enemy == 1) {
+//	switch(
+//}
