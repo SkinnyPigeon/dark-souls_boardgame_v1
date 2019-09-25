@@ -39,6 +39,14 @@ if(character.enemy && character.steps == 1) {
 						node_instance.selectable = 1;
 					}
 				}
+			} else if(target == "closest" && movement == "away") {
+				for(var j = 0; j < array_length_1d(obj_logic.player_character_order); j++) {
+					var player = obj_logic.player_character_order[j];
+					if(point_distance(node_instance.x, node_instance.y, player.x, player.y) > point_distance(char_x, char_y, player.x, player.y)) {
+						node_instance.sprite_index = spr_node_selected_good;
+						node_instance.selectable = 1;
+					}
+				}
 			}
 		}
 	}
