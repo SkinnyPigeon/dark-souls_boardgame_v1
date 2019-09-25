@@ -1,18 +1,18 @@
 {
-    "id": "5e39682b-aa4e-49c9-8fc2-faa1f2e83f33",
+    "id": "abf6fea9-1b6b-42fb-9283-3e041cfbbe93",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_hollow_knight",
+    "name": "obj_logic",
     "eventList": [
         {
-            "id": "dffc3c15-0f77-41fb-b067-50ffd6d21281",
+            "id": "8512fae1-a4fc-4c5e-8ff1-2f9d58264ac4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "5e39682b-aa4e-49c9-8fc2-faa1f2e83f33"
+            "m_owner": "abf6fea9-1b6b-42fb-9283-3e041cfbbe93"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d1259ad3-505e-46c7-84f4-f1ba963d224d",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

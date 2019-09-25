@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "917ee79e-72bf-4321-9d0e-e4949d55c87f",
+            "Value": {
+                "id": "558625bb-a8ed-44c9-acee-f9b3999f2206",
+                "resourcePath": "scripts\/check_move_logic\/check_move_logic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "944eeb69-29e8-4168-a99d-27ebdba51355",
             "Value": {
                 "id": "a0b03b3f-6552-4ed4-9d65-ea4769b177c8",
@@ -172,6 +180,14 @@
                 "id": "f4ee5880-0a13-466e-a9f8-ebd58654cf62",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "abf6fea9-1b6b-42fb-9283-3e041cfbbe93",
+            "Value": {
+                "id": "8a212bb1-eb66-4607-9334-b90dae04ef03",
+                "resourcePath": "objects\/obj_logic\/obj_logic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -328,7 +344,7 @@
         }
     ],
     "script_order": [
-        
+        "917ee79e-72bf-4321-9d0e-e4949d55c87f"
     ],
     "tutorial": ""
 }
