@@ -11,7 +11,6 @@ var moving_character = obj_logic.room_character_order[i];
 show_message(moving_character.name);
 if(moving_character.enemy == 1) {
 	target = moving_character.target;
-	show_message(target.name)
 } else {
 	target = node;
 }
