@@ -2,3 +2,4 @@
 is_turn = 0;
 enemy = false;
 name = "Knight";
+node = 11;

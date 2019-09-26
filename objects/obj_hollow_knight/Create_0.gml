@@ -13,3 +13,5 @@ type = "physical";
 
 physical_armour = 2;
 magic_armour = 1;
+
+node = 5;
