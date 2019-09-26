@@ -5,6 +5,8 @@ var character = argument0;
 var char_x = character.x;
 var char_y = character.y;
 
+count_nodes_to_target(character)
+
 //var one_space_array = [
 //	[char_x + 256, char_y],
 //	[char_x - 256, char_y],

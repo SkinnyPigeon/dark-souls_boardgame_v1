@@ -2,7 +2,7 @@
     "id": "e289e452-44ec-4e6c-92df-6ace3947c59c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_hollow_archer",
+    "name": "spr_hollow_archer_idle",
     "For3D": false,
     "HTile": false,
     "VTile": false,

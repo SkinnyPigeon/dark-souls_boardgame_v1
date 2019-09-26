@@ -2,7 +2,7 @@
     "id": "ea590c36-1cc8-478f-b091-245f07f6f477",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_hollow_knight",
+    "name": "spr_hollow_knight_idle",
     "For3D": false,
     "HTile": false,
     "VTile": false,

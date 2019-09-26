@@ -450,7 +450,7 @@
             "Key": "e289e452-44ec-4e6c-92df-6ace3947c59c",
             "Value": {
                 "id": "58195f93-b0ad-40e9-93b7-10ddcdc4e9e9",
-                "resourcePath": "sprites\/spr_hollow_archer\/spr_hollow_archer.yy",
+                "resourcePath": "sprites\/spr_hollow_archer_idle\/spr_hollow_archer_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -474,7 +474,7 @@
             "Key": "ea590c36-1cc8-478f-b091-245f07f6f477",
             "Value": {
                 "id": "de4d9de0-a10b-4daf-96b6-9173e5707f5c",
-                "resourcePath": "sprites\/spr_hollow_knight\/spr_hollow_knight.yy",
+                "resourcePath": "sprites\/spr_hollow_knight_idle\/spr_hollow_knight_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
