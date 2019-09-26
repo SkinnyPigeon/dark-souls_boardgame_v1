@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "dc29b563-85cb-4283-92f4-480866f20ba8",
+            "Value": {
+                "id": "a8377149-f453-41ee-a75e-90fd4dd4fed1",
+                "resourcePath": "scripts\/recursive_count\/recursive_count.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df512a5d-340e-4359-b31f-7f1e772dc843",
             "Value": {
                 "id": "e308328f-d43e-4819-9056-f560bd95e29a",
@@ -524,7 +532,8 @@
         "f193240b-d7ab-4f39-9603-b431419abdee",
         "a3b6b6a8-313c-4492-bd38-d54062cca4df",
         "a1b4d267-58e1-4d62-9d6d-98d377b44db3",
-        "1f97645a-3e45-4d94-ad63-c03f66620c5f"
+        "1f97645a-3e45-4d94-ad63-c03f66620c5f",
+        "dc29b563-85cb-4283-92f4-480866f20ba8"
     ],
     "tutorial": ""
 }
