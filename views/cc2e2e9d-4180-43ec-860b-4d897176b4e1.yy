@@ -4,8 +4,8 @@
     "mvc": "1.1",
     "name": "cc2e2e9d-4180-43ec-860b-4d897176b4e1",
     "children": [
-        "afb464c9-2d34-479b-bc78-c11673fbe524",
-        "d62b7226-7437-4bc7-aa3d-05c99c8d5896"
+        "5cf77fd1-cc64-40b8-8472-11e926587714",
+        "b4bfd475-8383-48dd-ab91-e46fd813c1ea"
     ],
     "filterType": "GMSprite",
     "folderName": "players",

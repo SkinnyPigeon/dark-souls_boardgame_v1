@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "07d3f482-5056-4cef-86a5-6db4e697fbfe",
+            "Value": {
+                "id": "b188ef9f-5867-4f03-974d-95f17828aa3c",
+                "resourcePath": "sprites\/spr_tiles_resize\/spr_tiles_resize.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0e2c848f-de34-419e-84d1-7d4b97ad47fc",
+            "Value": {
+                "id": "f5494c19-c1a8-40a2-ace0-bbe4bb0631a3",
+                "resourcePath": "tilesets\/tileset1\/tileset1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "149e4ab9-38a4-4665-8672-b2d4895a40da",
             "Value": {
                 "id": "c391e10f-776d-42d9-ab14-6affd71b479f",
@@ -103,10 +119,26 @@
             }
         },
         {
+            "Key": "53acc387-c57e-4ac8-babf-a1bc73931f6e",
+            "Value": {
+                "id": "f3cfe8af-fdc9-41d5-a981-0468e8fa6315",
+                "resourcePath": "sprites\/spr_herald_idle\/spr_herald_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a281563-91ac-48f3-a9d1-5ede3bd4a740",
             "Value": {
                 "id": "2f589e43-d054-48d4-909e-2a45fc00963d",
                 "resourcePath": "views\/5a281563-91ac-48f3-a9d1-5ede3bd4a740.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5cf77fd1-cc64-40b8-8472-11e926587714",
+            "Value": {
+                "id": "fa2c7a3a-f5c9-4b4f-b622-9b2a1ec7649c",
+                "resourcePath": "views\/5cf77fd1-cc64-40b8-8472-11e926587714.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -116,6 +148,14 @@
                 "id": "ce6edc8a-096e-4179-b3e1-b8ef063a9fc9",
                 "resourcePath": "objects\/obj_hollow_knight\/obj_hollow_knight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "67845eba-b9d8-47c1-9265-955a2f99b849",
+            "Value": {
+                "id": "a1ec0c5d-fe9f-410f-b664-6660c47f819b",
+                "resourcePath": "sprites\/spr_knight_idle\/spr_knight_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -148,6 +188,14 @@
                 "id": "5273cc45-ee3b-4edf-bba3-09365b909809",
                 "resourcePath": "views\/85bf447a-4798-4135-a498-dd5bab53ae10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "89277b27-cff3-433c-ae09-02f7cf53f257",
+            "Value": {
+                "id": "ea45d455-db3d-477a-b4a3-833d84344436",
+                "resourcePath": "tilesets\/tileset0\/tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -188,6 +236,22 @@
                 "id": "a0b03b3f-6552-4ed4-9d65-ea4769b177c8",
                 "resourcePath": "views\/944eeb69-29e8-4168-a99d-27ebdba51355.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "95d8f5ac-22de-41c3-b35a-1387d5588451",
+            "Value": {
+                "id": "b212aab8-6996-49e5-aee2-0d7a34d747a3",
+                "resourcePath": "views\/95d8f5ac-22de-41c3-b35a-1387d5588451.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b96c93e-1e03-4e43-bc98-7a9b3a0b0b8c",
+            "Value": {
+                "id": "bfed65f2-7743-445b-8f41-b3bbe03ba6f0",
+                "resourcePath": "sprites\/spr_tiles\/spr_tiles.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,11 +327,11 @@
             }
         },
         {
-            "Key": "afb464c9-2d34-479b-bc78-c11673fbe524",
+            "Key": "b4bfd475-8383-48dd-ab91-e46fd813c1ea",
             "Value": {
-                "id": "5d15b216-7cfb-47f1-8a79-9c83bad8af86",
-                "resourcePath": "sprites\/spr_knight\/spr_knight.yy",
-                "resourceType": "GMSprite"
+                "id": "1800987a-89e2-40fa-84bc-f6a0701252e1",
+                "resourcePath": "views\/b4bfd475-8383-48dd-ab91-e46fd813c1ea.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -284,6 +348,14 @@
                 "id": "f7d01ee2-c84e-48c3-b2d2-2be4119e47fb",
                 "resourcePath": "objects\/obj_knight\/obj_knight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c988adb0-6783-4c5e-92fc-a8b5ef61b22b",
+            "Value": {
+                "id": "4c39a574-d3a7-4245-889f-f13b7899c8be",
+                "resourcePath": "views\/c988adb0-6783-4c5e-92fc-a8b5ef61b22b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -319,6 +391,14 @@
             }
         },
         {
+            "Key": "cc7c4c20-b5c2-45ee-a1e2-432fc644a02a",
+            "Value": {
+                "id": "28b439e7-2224-44b2-b071-312a922f6929",
+                "resourcePath": "views\/cc7c4c20-b5c2-45ee-a1e2-432fc644a02a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "2ef529c1-5d6b-4448-b3c1-3b8b58a084c5",
@@ -335,27 +415,11 @@
             }
         },
         {
-            "Key": "d1259ad3-505e-46c7-84f4-f1ba963d224d",
-            "Value": {
-                "id": "73604a79-0b60-4c4b-b7ce-dbf221916af7",
-                "resourcePath": "sprites\/spr_hollow_knight\/spr_hollow_knight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d2f75bb5-f154-42d3-a2bf-4b1a6f90a2f6",
             "Value": {
                 "id": "a2928619-9146-45c2-aaee-30f8b75f7a1b",
                 "resourcePath": "objects\/obj_node\/obj_node.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d62b7226-7437-4bc7-aa3d-05c99c8d5896",
-            "Value": {
-                "id": "47053868-73fd-4c1c-bbb5-af5049487085",
-                "resourcePath": "sprites\/spr_herald\/spr_herald.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -375,6 +439,14 @@
             }
         },
         {
+            "Key": "e289e452-44ec-4e6c-92df-6ace3947c59c",
+            "Value": {
+                "id": "58195f93-b0ad-40e9-93b7-10ddcdc4e9e9",
+                "resourcePath": "sprites\/spr_hollow_archer\/spr_hollow_archer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3fbf3a3-6c2a-4b6d-a48c-2941989ec823",
             "Value": {
                 "id": "350ed160-dbd8-4e9d-904d-d9dde39171e7",
@@ -387,6 +459,14 @@
             "Value": {
                 "id": "e9d7b7bd-cb81-46a2-9237-de35a7aad4ae",
                 "resourcePath": "sprites\/spr_node_selected\/spr_node_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea590c36-1cc8-478f-b091-245f07f6f477",
+            "Value": {
+                "id": "de4d9de0-a10b-4daf-96b6-9173e5707f5c",
+                "resourcePath": "sprites\/spr_hollow_knight\/spr_hollow_knight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -420,14 +500,6 @@
                 "id": "ce8567c4-a304-4441-a1ca-882cfa70c079",
                 "resourcePath": "views\/f9643c8a-3c83-458f-9aac-90e2da3e4f61.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ff1abd90-7e06-48fc-8b59-3ec66aa0098f",
-            "Value": {
-                "id": "15003825-0fac-46cc-80cb-068736837cc4",
-                "resourcePath": "sprites\/spr_hollow_archer\/spr_hollow_archer.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
