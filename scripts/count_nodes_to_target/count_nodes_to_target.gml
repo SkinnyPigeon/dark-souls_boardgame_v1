@@ -8,7 +8,9 @@ if(character.enemy) {
 	var target_count = array_length_1d(targets);
 	var target_array = ds_grid_create(target_count, 1);
 	var possible_moves = [];
-	var possible_moves_index = 0;
+	
+	var selectable_nodes = [];
+	var selectable_nodes_index = 0;
 	for(var i = 0; i < target_count; i++) {
 		var start_count = 0;
 		var current_node = character.node;
@@ -31,15 +33,15 @@ if(character.enemy) {
 		for(var k = 0; k < possible_move_length; k++) {
 			var results = possible_moves[k];
 			var success_nodes = results[? "success_nodes"];
-			//show_message(success_nodes);
 			var success_nodes_length = array_length_1d(success_nodes);
-			if(success_nodes_length > 0) {
-				for(var l = 0; l < success_nodes_length; l++) {
-					possible_moves[possible_moves_index] = success_nodes[k]
-					possible_moves_index += 1;
+			if(success_nodes_length > 1) {
+				for(var l = 1; l < success_nodes_length; l++) {
+					selectable_nodes[selectable_nodes_index] = success_nodes[l];
+					selectable_nodes_index += 1;
 				}
 			}
 		}
 	}
+	show_message(selectable_nodes)
 }
 
