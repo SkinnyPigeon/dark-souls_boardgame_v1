@@ -3,7 +3,7 @@
 
 var character = argument0;
 
-if(character.enemy) {
+if(character.enemy && character.steps == 1) {
 	var targets = obj_logic.player_character_order;
 	var target_count = array_length_1d(targets);
 	var possible_moves = [];
@@ -41,6 +41,5 @@ if(character.enemy) {
 			}
 		}
 	}
-	show_message(selectable_nodes)
 }
 
