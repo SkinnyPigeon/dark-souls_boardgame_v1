@@ -1,4 +1,4 @@
-///@description count_nodes_to_target(character)
+///@description handle_movement(character)
 ///@param character
 
 var character = argument0;
