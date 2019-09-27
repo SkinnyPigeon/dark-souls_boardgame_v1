@@ -1,19 +1,20 @@
 /// @description Creating DS Map
 
-node_map = ds_map_create();
-ds_map_add(node_map, 1, [2, 4, 6]);
-ds_map_add(node_map, 2, [1, 3, 4, 5, 7]);
-ds_map_add(node_map, 3, [2, 5, 8]);
-ds_map_add(node_map, 4, [1, 2, 5, 6, 7, 9]);
-ds_map_add(node_map, 5, [2, 3, 4, 7, 8, 10]);
-ds_map_add(node_map, 6, [1, 4, 7, 9, 11]);
-ds_map_add(node_map, 7, [2, 4, 5, 6, 8, 9, 10, 12]);
-ds_map_add(node_map, 8, [3, 5, 7, 10, 13]);
-ds_map_add(node_map, 9, [4, 6, 7, 10, 11, 12]);
-ds_map_add(node_map, 10, [5, 7, 8, 9, 12, 13]);
-ds_map_add(node_map, 11, [6, 9, 12]);
-ds_map_add(node_map, 12, [7, 9, 10, 11, 13]);
-ds_map_add(node_map, 13, [8, 10, 12]);
+one_node_map = ds_map_create();
+ds_map_add(one_node_map, 1, [2, 4, 6]);
+ds_map_add(one_node_map, 2, [1, 3, 4, 5, 7]);
+ds_map_add(one_node_map, 3, [2, 5, 8]);
+ds_map_add(one_node_map, 4, [1, 2, 5, 6, 7, 9]);
+ds_map_add(one_node_map, 5, [2, 3, 4, 7, 8, 10]);
+ds_map_add(one_node_map, 6, [1, 4, 7, 9, 11]);
+ds_map_add(one_node_map, 7, [2, 4, 5, 6, 8, 9, 10, 12]);
+ds_map_add(one_node_map, 8, [3, 5, 7, 10, 13]);
+ds_map_add(one_node_map, 9, [4, 6, 7, 10, 11, 12]);
+ds_map_add(one_node_map, 10, [5, 7, 8, 9, 12, 13]);
+ds_map_add(one_node_map, 11, [6, 9, 12]);
+ds_map_add(one_node_map, 12, [7, 9, 10, 11, 13]);
+ds_map_add(one_node_map, 13, [8, 10, 12]);
+
 
 two_node_map = ds_map_create();
 ds_map_add(two_node_map, 1, [2, 3, 4, 5, 6, 7, 9, 11]);
@@ -29,6 +30,7 @@ ds_map_add(two_node_map, 10, [2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13]);
 ds_map_add(two_node_map, 11, [1, 4, 6, 7, 8, 9, 10, 12, 13]);
 ds_map_add(two_node_map, 12, [2, 4, 5, 6, 7, 8, 9, 10, 11, 13]);
 ds_map_add(two_node_map, 13, [3, 5, 7, 8, 9, 10, 11, 12, 13]);
+
 
 node_location = ds_map_create();
 ds_map_add(node_location, 1, [160, 160]);

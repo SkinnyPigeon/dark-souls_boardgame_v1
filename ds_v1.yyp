@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b045231-2929-4930-8659-65f4d2432d1e",
+            "Value": {
+                "id": "aef961c8-b48c-4ce0-9882-58aa6b8695a9",
+                "resourcePath": "scripts\/two_step_nodes\/two_step_nodes.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0e2c848f-de34-419e-84d1-7d4b97ad47fc",
             "Value": {
                 "id": "f5494c19-c1a8-40a2-ace0-bbe4bb0631a3",
@@ -524,7 +532,8 @@
         "f193240b-d7ab-4f39-9603-b431419abdee",
         "a3b6b6a8-313c-4492-bd38-d54062cca4df",
         "1f97645a-3e45-4d94-ad63-c03f66620c5f",
-        "dc29b563-85cb-4283-92f4-480866f20ba8"
+        "dc29b563-85cb-4283-92f4-480866f20ba8",
+        "0b045231-2929-4930-8659-65f4d2432d1e"
     ],
     "tutorial": ""
 }

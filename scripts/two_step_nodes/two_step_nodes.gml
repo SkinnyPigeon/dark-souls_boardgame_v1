@@ -1,4 +1,4 @@
-///@description one_step_nodes(current_node, target_node, node_count);
+///@description two_step_nodes(current_node, target_node, node_count);
 ///@param current_node
 ///@param target_node
 ///@param node_count
@@ -16,7 +16,7 @@ var success_node_choice = [];
 success_node_choice[0] = 0;
 var success_node_index = 1;
 
-var current_option_nodes = obj_node_map.one_node_map[? current_node];
+var current_option_nodes = obj_node_map.two_node_map[? current_node];
 var target_option_nodes = obj_node_map.one_node_map[? target_node];
 
 node_count += 1;
@@ -37,4 +37,5 @@ for(var i = 0; i < current_option_length; i++) {
 	}
 	ds_map_replace(result_map, "success_nodes", success_node_choice);
 }
+show_message(success_node_choice)
 return result_map;

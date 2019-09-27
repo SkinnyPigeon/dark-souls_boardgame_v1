@@ -3,7 +3,7 @@
 
 var character = argument0;
 
-if(character.enemy && character.steps == 1) {
+if(character.enemy) {
 	var targets = obj_logic.player_character_order;
 	var target_count = array_length_1d(targets);
 	var possible_moves = [];
@@ -14,7 +14,13 @@ if(character.enemy && character.steps == 1) {
 		var start_count = 0;
 		var current_node = character.node;
 		var target_node = targets[i].node;
-		possible_moves[i] = one_step_nodes(current_node, target_node, start_count)
+		if(character.steps == 1) {
+			possible_moves[i] = one_step_nodes(current_node, target_node, start_count)
+
+		} else if(character.steps == 2) {
+			possible_moves[i] = two_step_nodes(current_node, target_node, start_count)
+
+		}
 	}
 	var possible_move_length = array_length_1d(possible_moves);
 	var selectable_moves = [];
@@ -41,5 +47,6 @@ if(character.enemy && character.steps == 1) {
 			}
 		}
 	}
+	show_message(selectable_nodes);
 }
 

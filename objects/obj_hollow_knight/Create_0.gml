@@ -1,6 +1,6 @@
 /// @description Initialize enemy rules
 is_turn = 0;
-steps = 1;
+steps = 2;
 
 enemy = true;
 name = "Hollow Knight";
@@ -14,4 +14,4 @@ type = "physical";
 physical_armour = 2;
 magic_armour = 1;
 
-node = 5;
+node = 1;
