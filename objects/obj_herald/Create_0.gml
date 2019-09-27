@@ -2,4 +2,4 @@
 is_turn = 0;
 enemy = false;
 name = "Herald";
-node = 7;
+node = 6;

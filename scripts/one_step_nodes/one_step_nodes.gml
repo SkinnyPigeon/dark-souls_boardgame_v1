@@ -13,7 +13,8 @@ ds_map_add(result_map, "found_node", 0);
 ds_map_add(result_map, "success_nodes", []);
 
 var success_node_choice = [];
-var success_node_index = 0;
+success_node_choice[0] = 0;
+var success_node_index = 1;
 
 var current_option_nodes = obj_node_map.node_map[? current_node];
 var target_option_nodes = obj_node_map.node_map[? target_node];
@@ -27,7 +28,6 @@ for(var i = 0; i < current_option_length; i++) {
 	if(current_option_nodes[i] == target_node) {
 		ds_map_replace(result_map, "target_found", true);
 		ds_map_replace(result_map, "found_node", target_node);
-		show_message(result_map[? "target_found"]);
 	}
 	for(var j = 0; j < target_option_length; j++) {
 		if(current_option_nodes[i] == target_option_nodes[j]) {
