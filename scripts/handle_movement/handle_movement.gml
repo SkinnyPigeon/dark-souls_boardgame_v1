@@ -50,8 +50,6 @@ if(character.enemy) {
 	var actual_target_length = array_length_1d(selectable_moves);
 	var selectable_nodes_length = array_length_1d(selectable_nodes);
 	if(actual_target_length > 0) {
-		//var node_location = obj_node_map.node_location[? selectable_moves[0]];
-		//show_message(node_location)
 		for(var l = 0; l < actual_target_length; l++) {
 			var node_location = obj_node_map.node_location[? selectable_moves[l]];
 			var coord_x = node_location[0];
@@ -59,10 +57,9 @@ if(character.enemy) {
 			
 			var node = instance_position(coord_x, coord_y, obj_node);
 			node.sprite_index = spr_node_selected_good;
+			node.selectable = true;
 		}
 	} else if(selectable_nodes_length > 0) {
-		//var node_location = obj_node_map.node_location[? selectable_nodes[0]];
-		//show_message(node_location)
 		for(var m = 0; m < selectable_nodes_length; m++) {
 			var node_location = obj_node_map.node_location[? selectable_nodes[m]];
 			var coord_x = node_location[0];
@@ -70,6 +67,7 @@ if(character.enemy) {
 			
 			var node = instance_position(coord_x, coord_y, obj_node);
 			node.sprite_index = spr_node_selected_good;
+			node.selectable = true;
 		}
 	}
 }
