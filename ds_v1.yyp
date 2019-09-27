@@ -434,7 +434,7 @@
             "Key": "dc29b563-85cb-4283-92f4-480866f20ba8",
             "Value": {
                 "id": "a8377149-f453-41ee-a75e-90fd4dd4fed1",
-                "resourcePath": "scripts\/recursive_count\/recursive_count.yy",
+                "resourcePath": "scripts\/one_step_nodes\/one_step_nodes.yy",
                 "resourceType": "GMScript"
             }
         },
