@@ -37,4 +37,7 @@ for(var i = 0; i < current_option_length; i++) {
 	}
 	ds_map_replace(result_map, "success_nodes", success_node_choice);
 }
+
+//show_message(result_map[? "success_nodes"]);
+//THEY ARE FINE HERE
 return result_map;

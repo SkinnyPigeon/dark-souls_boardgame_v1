@@ -23,7 +23,7 @@ if(character.enemy) {
 		var target_found = results[? "target_found"]
 		var found_node = results[? "found_node"]
 		if(target_found) {
-			selectable_moves[j] = target_node;
+			selectable_moves[j] = found_node;
 			has_target = true;
 		}
 	}
@@ -31,11 +31,13 @@ if(character.enemy) {
 		for(var k = 0; k < possible_move_length; k++) {
 			var results = possible_moves[k];
 			var success_nodes = results[? "success_nodes"];
-			show_message(success_nodes);
+			//show_message(success_nodes);
 			var success_nodes_length = array_length_1d(success_nodes);
-			for(var l = 0; l < success_nodes_length; l++) {
-				possible_moves[possible_moves_index] = success_nodes[k]
-				possible_moves_index += 1;
+			if(success_nodes_length > 0) {
+				for(var l = 0; l < success_nodes_length; l++) {
+					possible_moves[possible_moves_index] = success_nodes[k]
+					possible_moves_index += 1;
+				}
 			}
 		}
 	}
