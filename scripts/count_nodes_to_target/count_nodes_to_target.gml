@@ -31,7 +31,7 @@ if(character.enemy) {
 		for(var k = 0; k < possible_move_length; k++) {
 			var results = possible_moves[k];
 			var success_nodes = results[? "success_nodes"];
-			show_message(success_nodes[0])
+			show_message(success_nodes);
 			var success_nodes_length = array_length_1d(success_nodes);
 			for(l = 0; l < success_nodes_length; l++) {
 				possible_moves[possible_moves_index] = success_nodes[k]
@@ -39,6 +39,5 @@ if(character.enemy) {
 			}
 		}
 	}
-	//show_message(possible_moves);
 }
 
