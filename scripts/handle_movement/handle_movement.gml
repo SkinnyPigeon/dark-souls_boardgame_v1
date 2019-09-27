@@ -47,6 +47,12 @@ if(character.enemy) {
 			}
 		}
 	}
-	show_message(selectable_nodes);
+	var actual_target_length = array_length_1d(selectable_moves);
+	var selectable_nodes_length = array_length_1d(selectable_nodes);
+	if(actual_target_length > 0) {
+		
+	} else if(selectable_nodes_length > 0) {
+		
+	}
 }
 
