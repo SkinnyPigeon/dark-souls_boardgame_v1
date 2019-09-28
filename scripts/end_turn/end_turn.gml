@@ -4,6 +4,9 @@ var enemy_character_length = array_length_1d(obj_logic.enemy_character_order);
 var player_character_length = array_length_1d(obj_logic.player_character_order);
 obj_node.sprite_index = spr_node;
 obj_node.selectable = false;
+if(instance_exists(obj_fight)) {
+	instance_destroy(obj_fight)
+}
 
 if(obj_logic.turn == 1) {
 	character = obj_logic.enemy_character_order[0];
