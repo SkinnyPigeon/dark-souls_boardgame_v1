@@ -2,7 +2,8 @@
 //@param character           
 
 var character = argument0;
-var char_x = character.x;
-var char_y = character.y;
+show_message(character.name);
+//var char_x = character.x;
+//var char_y = character.y;
 
 handle_movement(character)

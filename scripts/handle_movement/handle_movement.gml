@@ -72,3 +72,7 @@ if(character.enemy) {
 	}
 }
 
+if(!character.enemy) {
+	obj_node.selectable = true;
+}
+
