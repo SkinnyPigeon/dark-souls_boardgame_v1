@@ -7,3 +7,4 @@ show_message(character.name);
 //var char_y = character.y;
 
 handle_movement(character)
+show_character(character);
