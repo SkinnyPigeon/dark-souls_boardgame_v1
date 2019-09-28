@@ -2,3 +2,7 @@
 ///@param character
 
 var character = argument0;
+
+if(character.enemy) {
+	
+}
