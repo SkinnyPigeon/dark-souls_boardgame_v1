@@ -52,22 +52,26 @@ if(character.enemy) {
 	if(actual_target_length > 0) {
 		for(var l = 0; l < actual_target_length; l++) {
 			var node_location = obj_node_map.node_location[? selectable_moves[l]];
-			var coord_x = node_location[0];
-			var coord_y = node_location[1];
+			if(is_array(node_location)) {
+				var coord_x = node_location[0];
+				var coord_y = node_location[1];
 			
-			var node = instance_position(coord_x, coord_y, obj_node);
-			node.sprite_index = spr_node_selected_good;
-			node.selectable = true;
+				var node = instance_position(coord_x, coord_y, obj_node);
+				node.sprite_index = spr_node_selected_good;
+				node.selectable = true;
+			}
 		}
 	} else if(selectable_nodes_length > 0) {
 		for(var m = 0; m < selectable_nodes_length; m++) {
 			var node_location = obj_node_map.node_location[? selectable_nodes[m]];
-			var coord_x = node_location[0];
-			var coord_y = node_location[1];
+			if(is_array(node_location)) {
+				var coord_x = node_location[0];
+				var coord_y = node_location[1];
 			
-			var node = instance_position(coord_x, coord_y, obj_node);
-			node.sprite_index = spr_node_selected_good;
-			node.selectable = true;
+				var node = instance_position(coord_x, coord_y, obj_node);
+				node.sprite_index = spr_node_selected_good;
+				node.selectable = true;
+			}
 		}
 	}
 }
