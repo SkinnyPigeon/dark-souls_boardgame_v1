@@ -3,6 +3,9 @@ character = "";
 enemy = "";
 name = "";
 
+damage = "";
+damage_type = "";
+
 physical_armour = "";
 magic_armour = "";
 

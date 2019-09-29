@@ -9,7 +9,7 @@ target = "closest";
 movement = "away";
 
 damage = 2;
-type = "magical";
+damage_type = "magical";
 
 physical_armour = 1;
 magic_armour = 0;

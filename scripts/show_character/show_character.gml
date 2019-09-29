@@ -3,7 +3,7 @@
 
 var character = argument0;
 var character_image = "";
-
+instance_create_layer(960, 192, "ui", obj_show_character);
 if(character.enemy) {
 	var character_name = character.name;
 	switch(character_name) {
@@ -20,6 +20,10 @@ if(character.enemy) {
 	obj_show_character.name = character_name;
 	obj_show_character.physical_armour = character.physical_armour;
 	obj_show_character.magic_armour = character.magic_armour;
+	obj_show_character.damage = character.damage;
+	obj_show_character.damage_type = character.damage_type;
+	obj_show_character.target = character.target;
+	obj_show_character.movement = character.movement;
 }
 
 if(!character.enemy) {
