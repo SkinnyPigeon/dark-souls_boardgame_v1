@@ -10,7 +10,7 @@ orange_dice = 0;
 green_dice = 0;
 
 aoe = true;
-damage_type = "physical";
+damage_type = "Physical";
 
 total_energy = 10;
 stamina = 0;

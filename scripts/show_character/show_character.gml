@@ -43,8 +43,11 @@ if(!character.enemy) {
 	obj_show_character.name = character_name;
 	obj_show_character.hearts = character.hearts;
 	obj_show_character.stamina = character.stamina;
+	obj_show_character.total_energy = character.total_energy;
 	obj_show_character.black_dice = character.black_dice;
 	obj_show_character.blue_dice = character.blue_dice;
 	obj_show_character.orange_dice = character.orange_dice;
 	obj_show_character.green_dice = character.green_dice;
+	obj_show_character.aoe = character.aoe;
+	obj_show_character.damage_type = character.damage_type;
 }

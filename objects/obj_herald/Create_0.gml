@@ -10,7 +10,7 @@ orange_dice = 0;
 green_dice = 1;
 
 aoe = false;
-damage_type = "magical";
+damage_type = "Magical";
 
 total_energy = 10;
 stamina = 0;
