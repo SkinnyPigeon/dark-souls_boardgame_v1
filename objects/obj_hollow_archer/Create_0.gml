@@ -5,11 +5,11 @@ steps = 1;
 enemy = true;
 name = "Hollow Archer";
 
-target = "closest";
-movement = "away";
+target = "Closest";
+movement = "Away";
 
 damage = 2;
-damage_type = "magical";
+damage_type = "Magical";
 
 physical_armour = 1;
 magic_armour = 0;

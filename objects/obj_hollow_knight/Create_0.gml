@@ -5,11 +5,11 @@ steps = 2;
 enemy = true;
 name = "Hollow Knight";
 
-target = "closest";
-movement = "towards";
+target = "Closest";
+movement = "Towards";
 
 damage = 3;
-damage_type = "physical";
+damage_type = "Physical";
 
 physical_armour = 2;
 magic_armour = 1;

@@ -24,6 +24,7 @@ if(character.enemy) {
 	obj_show_character.damage_type = character.damage_type;
 	obj_show_character.target = character.target;
 	obj_show_character.movement = character.movement;
+	obj_show_character.aoe = character.aoe;
 }
 
 if(!character.enemy) {
