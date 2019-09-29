@@ -33,6 +33,6 @@ var enemies_sharing_node_length = array_length_1d(enemies_on_node);
 var players_sharing_node_length = array_length_1d(players_on_node);
 
 if(character.enemy && players_sharing_node_length > 0) {
-	instance_create_layer(928, 256, "ui", obj_fight);
+	instance_create_layer(1504, 224, "ui", obj_fight);
 	
 }
