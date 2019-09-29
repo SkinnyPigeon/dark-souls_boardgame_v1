@@ -15,3 +15,5 @@ physical_armour = 2;
 magic_armour = 1;
 
 node = 1;
+
+aoe = true;

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2335db48-79f1-4583-bb76-e6d5674474e4",
+            "Value": {
+                "id": "38117beb-56c5-45ba-a0c6-2648eed01d3c",
+                "resourcePath": "objects\/obj_black_dice\/obj_black_dice.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a6978d9-941a-4d71-b886-e5fc05248893",
             "Value": {
                 "id": "f9865e3e-6a05-4083-a8e4-464d92dfce42",
@@ -180,6 +188,14 @@
                 "id": "f3cfe8af-fdc9-41d5-a981-0468e8fa6315",
                 "resourcePath": "sprites\/spr_herald_idle\/spr_herald_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5413f238-ce26-4b56-91ed-d98f0d985b0b",
+            "Value": {
+                "id": "1dc96cee-e394-4853-8154-7a3331e59565",
+                "resourcePath": "views\/5413f238-ce26-4b56-91ed-d98f0d985b0b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "709eb7a4-fc88-4f49-818e-a090356a44cf",
                 "resourcePath": "views\/7c355e92-c7db-485d-b8e3-bb835af801a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82353e86-c82a-41c7-b4c2-01b1ac794ae9",
+            "Value": {
+                "id": "1f120e73-bad0-4c84-9953-0b65cfd1d288",
+                "resourcePath": "objects\/obj_green_dice\/obj_green_dice.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -583,6 +607,14 @@
             }
         },
         {
+            "Key": "d3b54729-52c3-479a-86fb-1682f7f06623",
+            "Value": {
+                "id": "f7a6c319-3b54-4826-947b-62dabd96dd68",
+                "resourcePath": "objects\/obj_orange_dice\/obj_orange_dice.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db994b15-046d-4c51-8e78-83c45c50b5c0",
             "Value": {
                 "id": "45148b36-31fb-4827-93a6-dabc7aa0e0a8",
@@ -636,6 +668,14 @@
                 "id": "58195f93-b0ad-40e9-93b7-10ddcdc4e9e9",
                 "resourcePath": "sprites\/spr_hollow_archer_idle\/spr_hollow_archer_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3de08d3-77cb-48e2-a850-979e8c5678a7",
+            "Value": {
+                "id": "c2454793-daa6-422e-acb7-beaf72672d42",
+                "resourcePath": "objects\/obj_blue_dice\/obj_blue_dice.yy",
+                "resourceType": "GMObject"
             }
         },
         {
