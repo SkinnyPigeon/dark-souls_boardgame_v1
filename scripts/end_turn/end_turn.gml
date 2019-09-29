@@ -12,6 +12,10 @@ if(instance_exists(obj_show_character)) {
 	instance_destroy(obj_show_character)
 }
 
+if(instance_exists(obj_show_characters_to_fight)) {
+	instance_destroy(obj_show_characters_to_fight);
+}
+
 if(obj_logic.turn == 1) {
 	character = obj_logic.enemy_character_order[0];
 	obj_logic.character = obj_logic.enemy_character_order[0];

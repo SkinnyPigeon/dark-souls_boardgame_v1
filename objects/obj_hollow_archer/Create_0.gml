@@ -17,3 +17,5 @@ magic_armour = 0;
 node = 10;
 
 aoe = false;
+
+display_sprite = spr_hollow_archer_display;

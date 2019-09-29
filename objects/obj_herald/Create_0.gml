@@ -15,3 +15,5 @@ damage_type = "Magical";
 total_energy = 10;
 stamina = 0;
 hearts = 0;
+
+display_sprite = spr_herald_display;

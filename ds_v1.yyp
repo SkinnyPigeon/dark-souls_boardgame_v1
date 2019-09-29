@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "f4e0cb47-4ffc-4c80-b8f9-79ded46beead",
+            "Value": {
+                "id": "3e1c6e02-1a19-4a4e-8417-be9d6b954399",
+                "resourcePath": "objects\/obj_show_characters_to_fight\/obj_show_characters_to_fight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f55d13e4-6577-488c-9058-fb0253ff848f",
             "Value": {
                 "id": "3fb683c9-5c0c-46da-ade6-70d807a3edf8",

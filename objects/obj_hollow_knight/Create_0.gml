@@ -17,3 +17,5 @@ magic_armour = 1;
 node = 1;
 
 aoe = true;
+
+display_sprite = spr_hollow_knight_display;
