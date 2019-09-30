@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "6f27533d-1389-4661-9b8e-0cf7becad618",
+            "Value": {
+                "id": "5d3851d9-7c33-4a30-a49b-af3ba365a6ad",
+                "resourcePath": "objects\/obj_roll\/obj_roll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "736e56c7-8240-4bce-8b5b-dbed427b538a",
             "Value": {
                 "id": "ad541e4e-7032-4c58-9387-36a1ad7d5d42",
@@ -308,6 +316,14 @@
                 "id": "709eb7a4-fc88-4f49-818e-a090356a44cf",
                 "resourcePath": "views\/7c355e92-c7db-485d-b8e3-bb835af801a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "816303d0-1404-4b18-a63b-40425943ce3d",
+            "Value": {
+                "id": "1a3fa9a6-0c36-40ee-88b7-9aba1698262f",
+                "resourcePath": "sprites\/spr_dice\/spr_dice.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -508,6 +524,14 @@
                 "id": "e24cea3e-3988-47cd-9552-1131a550d839",
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "acb77e05-f9c2-4104-90bf-8550f2aacfd7",
+            "Value": {
+                "id": "ef6b029c-1a60-4768-b078-12bed651babd",
+                "resourcePath": "scripts\/roll_defence\/roll_defence.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -817,6 +841,7 @@
         "9a997f85-4452-4edc-a55c-e5bd1d01300c",
         "9b0612a8-8105-4071-99b6-46689e029513",
         "94ac167f-da97-42f2-8673-45005cb948bf",
+        "acb77e05-f9c2-4104-90bf-8550f2aacfd7",
         "964ab8d6-10a0-4659-8350-f4e0f3744473"
     ],
     "tutorial": ""
