@@ -1,4 +1,4 @@
-/// @description
+/// @description Wait a step to set the values
 
 if(ready == 1) {
 	ready -= 1;
@@ -11,6 +11,9 @@ if(ready == 0) {
 		for(var i = 0; i < characters_array_length; i++) {
 			var character = characters[i];
 			var sprite = character.display_sprite;
+			//if(instance_exists(obj_fight_character)) {
+			//	instance_destroy(obj_fight_character);
+			//}
 			var display_character = instance_create_layer(display_x, display_y, "ui", obj_fight_character);
 			display_character.sprite_index = sprite;
 			display_character.name = character.name;
