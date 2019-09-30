@@ -1,6 +1,4 @@
 /// @description Set who will create and their stats
 
-player_characters = [];
-enemy_characters = [];
-
-attacking_character = "";
+characters = [];
+attacking_character = obj_store.character_taking_turn;

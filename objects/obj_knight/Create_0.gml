@@ -18,3 +18,5 @@ hearts = 0;
 
 display_sprite = spr_knight_display;
 display_sprite_selected = spr_knight_display_selected;
+
+selected = false;

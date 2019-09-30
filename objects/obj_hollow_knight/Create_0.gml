@@ -19,3 +19,5 @@ node = 1;
 aoe = true;
 
 display_sprite = spr_hollow_knight_display;
+
+selected = false;

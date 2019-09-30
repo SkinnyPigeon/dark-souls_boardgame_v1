@@ -7,3 +7,4 @@ var character = argument0;
 
 handle_movement(character)
 show_character(character);
+obj_store.character_taking_turn = character;

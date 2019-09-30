@@ -18,3 +18,5 @@ hearts = 0;
 
 display_sprite = spr_herald_display;
 display_sprite_selected = spr_herald_display_selected;
+
+selected = false;
