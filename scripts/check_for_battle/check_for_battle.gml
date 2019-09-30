@@ -5,7 +5,9 @@ var character = argument0;
 var node = argument1;
 
 var enemies_on_node = [];
+var enemy_index = 0;
 var players_on_node = [];
+var player_index = 0;
 
 var enemies = obj_logic.enemy_character_order;
 var enemy_length = array_length_1d(enemies);
@@ -16,7 +18,8 @@ var player_length = array_length_1d(players);
 for(var i = 0; i < enemy_length; i++) {
 	if(enemies[i] != character) {
 		if(enemies[i].node == node) {
-			enemies_on_node[i] = enemies[i];
+			enemies_on_node[enemy_index] = enemies[i];
+			enemy_index += 1;
 		}
 	} 
 }
@@ -24,7 +27,8 @@ for(var i = 0; i < enemy_length; i++) {
 for(var i = 0; i < player_length; i++) {
 	if(players[i] != character) {
 		if(players[i].node == node) {
-			players_on_node[i] = players[i];
+			players_on_node[player_index] = players[i];
+			player_index += 1;
 		}
 	} 
 }
