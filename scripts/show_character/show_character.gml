@@ -25,6 +25,7 @@ if(character.enemy) {
 	obj_show_character.target = character.target;
 	obj_show_character.movement = character.movement;
 	obj_show_character.aoe = character.aoe;
+	
 }
 
 if(!character.enemy) {
@@ -50,4 +51,6 @@ if(!character.enemy) {
 	obj_show_character.green_dice = character.green_dice;
 	obj_show_character.aoe = character.aoe;
 	obj_show_character.damage_type = character.damage_type;
+	obj_show_character.display_sprite = character.display_sprite;
+	obj_show_character.display_sprite_selected = character.display_sprite_selected;
 }

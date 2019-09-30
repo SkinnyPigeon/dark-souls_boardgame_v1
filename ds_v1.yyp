@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "85b56891-28d3-471c-9bb8-86378978a703",
+            "Value": {
+                "id": "71536fa8-71a6-4b47-8a0c-4ff48d078778",
+                "resourcePath": "sprites\/spr_herald_display_selected\/spr_herald_display_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85bf447a-4798-4135-a498-dd5bab53ae10",
             "Value": {
                 "id": "5273cc45-ee3b-4edf-bba3-09365b909809",
@@ -756,6 +764,22 @@
                 "id": "d7877adb-6f96-4c95-8747-56b36d6da412",
                 "resourcePath": "views\/f5dcfe78-1926-4d2c-ade6-d516d58c1f89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f83bd350-e351-4d8c-aad3-c4a2bbdb7319",
+            "Value": {
+                "id": "aae3bfa5-443d-4196-a9a3-d7887889852a",
+                "resourcePath": "sprites\/spr_knight_display_selected\/spr_knight_display_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8d59bd4-baa3-4414-8bfe-3e90c545be74",
+            "Value": {
+                "id": "4f2d6518-9635-4cb7-ad33-2b5b91c2d649",
+                "resourcePath": "objects\/obj_fight_character\/obj_fight_character.yy",
+                "resourceType": "GMObject"
             }
         },
         {
